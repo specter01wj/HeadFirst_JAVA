@@ -13,6 +13,9 @@ npm-debug.log
 runtime
 symlinks
 # IntelliJ
+.classpath
+.project
+.settings
 
 # Ignore Visual Studio  Project #
 ###################
