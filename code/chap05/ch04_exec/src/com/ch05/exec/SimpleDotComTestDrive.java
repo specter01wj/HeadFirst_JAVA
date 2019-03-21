@@ -7,9 +7,14 @@ public class SimpleDotComTestDrive {
 		SimpleDotCom dot = new SimpleDotCom();
 		int[] locations = {2, 3, 4};
 		dot.setLocationCells(locations);
-		String userGuess = "10";
-		String result = dot.checkYourself(userGuess);
-		System.out.println("You -> " + result);
+		//String userGuess = "3";
+		//String result = dot.checkYourself(userGuess);
+		String result = "";
+		for(int i = 1; i <= 4; i++) {
+			result = dot.checkYourself(Integer.toString(i));
+			System.out.println("You hit " + i + " -> " + result);
+		}
+		//System.out.println("You hit " + userGuess + " -> " + result);
 	}
 
 }
