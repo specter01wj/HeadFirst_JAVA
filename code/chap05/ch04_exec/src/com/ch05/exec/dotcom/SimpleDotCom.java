@@ -1,4 +1,4 @@
-package com.ch05.exec;
+package com.ch05.exec.dotcom;
 
 public class SimpleDotCom {
 
